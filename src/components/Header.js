@@ -5,7 +5,7 @@ import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap'
 const Header = () => (
     <Navbar inverse collapseOnSelect className="nav">
         <Navbar.Header>
-            <Navbar.Brand><IndexLinkContainer to='/home'>
+            <Navbar.Brand><IndexLinkContainer to='/'>
                 <NavItem>
                     <span className='glyphicon glyphicon-home'></span>
                 </NavItem>

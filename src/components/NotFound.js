@@ -3,7 +3,7 @@ import NotFoundPick from './../404-error-not-found.png'
 
 const NotFound = () => (
     <div className='not-found-pic'>
-        <img src={NotFoundPick} />
+        <img src={NotFoundPick} alt='404'/>
     </div>
 );
 

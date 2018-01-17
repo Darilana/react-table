@@ -8,7 +8,7 @@ import AboutUs from './AboutUs'
 const Main = () => (
     <main>
         <Switch>
-            <Route path="/home" component={Landing} />
+            <Route exact path="/" component={Landing} />
             <Route path="/table" component={Table} />
             <Route path="/aboutUs" component={AboutUs} />
             <Route component={NotFound} />
@@ -17,4 +17,3 @@ const Main = () => (
 );
 
 export default Main
-
